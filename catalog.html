@@ -5,25 +5,29 @@
 	<title>Catalog</title>
 </head>
 <body>
-	<header class="main-header">
-		<div class="container">
-			<nav class="main-navigation">
-				<img src="logo" alt="Barbershop">
+	<header class="page-header">
+		<div class="logo">
+			<a class="logo">
+				<img src="http://placehold.it width="121" height="37" alt="Barbershop">
+			</a>
+		</div>
+				<nav class="main-menu">
 					<ul>
 						<li><a href="#">Информация</a></li>
 						<li><a href="#">Новости</a></li>
 						<li><a href="#">Прайс-лист</a></li>
 						<li><a href="#">Магазин</a></li>
-						<li><a href="#" ="#">Контакты</a></li>
+						<li><a href="#">Контакты</a></li>
 					</ul>
 						<div class="user-block">
 							<a class="login" href="#">Вход</a>
 						</div>
-			</div>
-		</nav>
+		</div>
+				</nav>
 	</header>
-		<main class="container">
-			<h1>Средства для ухода</h1>
+	<main>
+	  <section class="features-item">
+		<h1>Средства для ухода</h1>
 				<nav class="main-navigation">
 					<ul>
 						<li><a href="#">Главная</a></li>
@@ -31,24 +35,47 @@
 						<li><a href="#">Средства для ухода</a></li>
 					</ul>
 				</nav>
-			<div class>Proisvoditeli
-				<br>
-				<form name="form1" action="#">
-						<input type="checkbox" name="" value="yes">baxter of california <br>
-						<input type="checkbox" name="" value="no">mr natty <br>
-						<input type="checkbox" name="" value="yes">suavecito <br>
-						<input type="checkbox" name="" value="no">malin-goetz <br>
-						<input type="checkbox" name="" value="no">murray's <br>
-						<input type="checkbox" name="" value="yes">american crew <br>
-						<br>						
-						<input type="radio" name="choiseradio" value="1">
-						<input type="radio" name="choiseradio" value="1">
-						<input type="radio" name="choiseradio" value="1">
-					</form>
-				</div>
-			</div>
-		</div>
-	</main>
+	  </section>
+				<section class="index-content1">
+					<b class="features-name">Производители:</b>
+					<form class="catalog" action="https://echo.htmlacademy.ru" metod="post">
+						<label><input type="checkbox" checked>Baxter of California</label><br>
+						<label><input type="checkbox">mr natty</label><br>
+						<label><input type="checkbox" checked>suavecito</label><br>
+						<label><input type="checkbox">malin-goetz</label><br>
+						<label><input type="checkbox">murray's</label><br>
+						<label><input type="checkbox" checked>american crew</label><br>
+						<br>
+				</section>
+					</form>пр
+			<aside class="index-content1">
+					<img src="#" widht="218" height="285" alt="Набор для путешествий 
+«Baxter of California»">
+					<img src="#" widht="218" height="285" alt="Увлажняющий кондиционер 
+«Baxter of California">
+					<img src="#" widht="218" height="285" alt="Гель для волос
+«SUAVECITO»">
+			</aside>
+			<section class="index-content2">
+				<b class="feateres-name">Группы товаров:</b><br>
+					<form class="catalog" action="https://echo.htmlacademy.ru" metod="post">
+						<label><input type="radio" name="choiseradio">Бритвенные принадлежности</label><br>
+						<label><input type="radio" checked>Средства для ухода</label><br>
+						<label><input type="radio" name="choiseradio">Аксессуары</label><br>
+					</form><br>
+			<button class="btn gallery-prev" type="button">показать</button>
+			<br>
+				</section>
+					<aside class="index-content2">
+						<img src="#" widht="218" height="285" alt="Глина для укладки волос 
+«American crew»">
+						<img src="#" widht="218" height="285" alt="Гель для волос
+«AMERICAN CREW">
+						<img src="#" widht="218" height="285" alt="Набор для бритья
+«Baxter of California">
+				
+					</aside>
+			</main>
 	 <footer class="main-footer">
       		<div class="container">
 		        <section class="footer-contacts">
@@ -68,6 +95,7 @@
 			          		<a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
 	        	</section>
 			</div>
-	</footer>	
+		</footer>
+	</main>	
 </body>
 </html>
